@@ -1,8 +1,207 @@
-/*----------------------Heading*/
-.logo{
-    background-image: url(../images/logo.jpg);
-    background-position: left;
-    max-width: 30%;
-    
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Radley&display=swap');
+
+/*----------------------Colours */
+
+
+
+/*----------------------Heading */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo-text{
+    font-family: 'Mark Script', cursive;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+ul .navbar-nav {
+    float: right;
+}
+
+
+
+.navbar-nav{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 5px 0 20px;
+    position: relative;
+    list-style: none;
 
 }
+
+
+
+.nav-item{
+    background-image: url("../images/plant-wall.jpg");
+    text-align: right;
+    padding: 0 20% 0 20%;
+    margin: 0 10px;
+    position: relative;
+    border: 3px solid white;
+
+} 
+
+
+.nav-link{
+    padding: 0 50% 0 50%;
+    margin: 0;
+    color: white;
+}
+
+.title {
+    font-family: 'Radley', sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.navbar-dark {
+    background-color: rgb(70, 60, 60);
+}
+
+
+/*----------------------Hoover CSS----*/
+
+/* .menu-item a:hover {
+    opacity: 0.8;
+} */
+
+
+
+/*----------------------Footer----*/
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(70, 60, 60);
+}
+
+.footer-text {
+    color: white;
+    padding-top: 5px;
+    margin: 0;
+} 
+
+
+.social-network{
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style-type: none;
+    position: relative;
+    /* height: 70px; */
+}
+
+
+.social-network li{
+    display: inline-block;
+
+}
+
+.fab {
+    background-image: url("../images/plant-wall.jpg");
+    text-align: center;
+    color: white;
+    width: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    margin: 10px;
+    position: relative;
+
+}
+
+.fab:hover {
+    opacity: 0.8;
+}
+
+
+/*--------------Plants list--*/
+
+
+.plants {
+    padding: 20px;
+}
+
+.plant-img{
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+
+.plant-description {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+  .plant-description h4{
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 0 5px;
+}
+
+.plant-description p {
+    margin: 0 0 0 5px;
+}
+
+
+.gallery-item img {
+    background-color: grey;
+    width: 65%;
+    height: 50%;
+    padding: 6px;
+    margin: 0;
+}
+
+.gallery-item {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: rgb(194, 190, 190)
+}
+
+  /* Media Query for Mobile Devices */ 
+  @media (max-width: 480px) { 
+        .nav-item {
+          background-image: unset;
+          border: unset;
+          padding: unset;
+        }
+    } 
+    /* Media Query for low resolution  Tablets, Ipads */ 
+    @media (min-width: 481px) and (max-width: 767px) { 
+      .nav-item {
+        background-image: unset;
+        border: unset;
+        padding: unset;
+      }
+    } 
+    /* Media Query for Tablets Ipads portrait mode */ 
+    @media (min-width: 768px) and (max-width: 1024px){ 
+      .nav-item {
+        background-image: unset;
+        border: unset;
+        padding: unset;
+      }
+    }
