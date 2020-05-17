@@ -59,7 +59,7 @@ ul .navbar-nav {
     font-family: 'Radley', sans-serif;
     font-weight: lighter;
     font-size: 32px;
-    margin-top: 20px;
+    margin-top: 6%;
 }
 
 .inline-block {
@@ -156,11 +156,11 @@ footer{
   .plant-description h4{
     font-weight: bold;
     text-align: left;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 15px;
 }
 
 .plant-description p {
-    margin: 0 0 0 5px;
+    margin: 0 0 0 15px;
 }
 
 
