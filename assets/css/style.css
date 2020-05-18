@@ -181,6 +181,14 @@ footer{
     background-color: rgb(194, 190, 190)
 }
 
+         .gallery-section {
+            margin-top: 60px;
+        }
+
+ .gallery-item-1 img {
+            margin-top: 7%;
+        }
+
   /* Media Query for Mobile Devices */ 
   @media (max-width: 480px) { 
         .nav-item {
@@ -188,6 +196,15 @@ footer{
           border: unset;
           padding: unset;
         }
+
+        .plant-img, .plant-description h4 {
+            text-align: center;
+        }
+
+        .title {
+            margin-top: 80px;
+        }
+
     } 
     /* Media Query for low resolution  Tablets, Ipads */ 
     @media (min-width: 481px) and (max-width: 767px) { 
@@ -196,6 +213,15 @@ footer{
         border: unset;
         padding: unset;
       }
+
+        .plant-img, .plant-description h4 {
+            text-align: center;
+        }
+
+        .title {
+            margin-top: 80px;
+        }
+
     } 
     /* Media Query for Tablets Ipads portrait mode */ 
     @media (min-width: 768px) and (max-width: 1024px){ 
@@ -204,4 +230,13 @@ footer{
         border: unset;
         padding: unset;
       }
+
+       .plant-img, .plant-description h4 {
+            text-align: center;
+        }
+
+        .title {
+            margin-top: 80px;
+        }
+
     }
