@@ -1,14 +1,8 @@
 # Let's Talk Houseplants
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+An informational website. The purpose is to provide basic information related to the houseplants.
  
 ## UX
-
-To make information page as simple to use as possible. Focus on users who loves indoor plants and are looking for basic information.
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 By Facebook research of plant-lovers groups we tried to find out what they expect from information page:
 - As a user, I want to find information I need.
@@ -76,8 +70,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+ The text for home page section was copied from:
+- [Perrywood.co.uk](https://www.perrywood.co.uk)
+- [Medium.com](https://www.medium.com)
+- [Health]
 ### Media
 - The photos used in this site were obtained from ...
 

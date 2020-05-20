@@ -12,8 +12,6 @@
 
 .logo-text{
     font-family: 'Mark Script', cursive;
-    font-size: 10px;
-    letter-spacing: 1px;
     text-align: left;
 }
 
@@ -41,13 +39,13 @@ ul .navbar-nav {
 .nav-link{
     padding: 0 50% 0 50%;
     margin: 0;
+    color: #ffffffc9 !important;
 }
 
 
 
 .dark-navbar {
     background-color: rgb(70, 60, 60);
-    color: #ffff !important;
 }
 
 
@@ -65,16 +63,10 @@ ul .navbar-nav {
 
 footer{
     position: relative;
-    bottom: 0;
     width: 100%;
     background-color: rgb(70, 60, 60);
 }
 
-.footer-text {
-    color: white;
-    padding-top: 5px;
-    margin: 0;
-} 
 
 .social-network{
     text-align: center;
@@ -107,7 +99,7 @@ footer{
     font-family: 'Radley', sans-serif;
     font-weight: lighter;
     font-size: 32px;
-    margin-top: 6%;
+    margin-top: 70px;
 }
 
 .plants {
@@ -115,11 +107,15 @@ footer{
 }
 
 .plant-image img{
-    float: right;
     padding: 0;
     margin: 0;
-    width: 150px;
+    width: 100%;
     height: 150px;
+    object-fit: cover;
+}
+
+.plant-image {
+    text-align: center;
 }
 
 .plant-description {
@@ -173,7 +169,7 @@ footer{
     font-family: 'Radley', sans-serif;
     font-weight: lighter;
     font-size: 32px;
-    margin-top: 6%;
+    margin-top: 70px;
 }
 
 .form1 {
@@ -190,6 +186,10 @@ footer{
 .submit-button {
     float: right;
     margin: 0 0 5px 0;
+}
+
+.form-button-wrapper {
+    justify-content: center;
 }
 
 
@@ -223,6 +223,7 @@ footer{
             text-align: center;
         }
 
+      
     } 
     /* Media Query for Tablets Ipads portrait mode */ 
     @media (min-width: 768px) and (max-width: 960px){ 
@@ -235,4 +236,6 @@ footer{
        .plant-image img, .plant-description h4 {
             text-align: center;
       }
+
+     
     }
