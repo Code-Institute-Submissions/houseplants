@@ -138,12 +138,15 @@ footer{
 
 .plants {
     padding: 20px;
+    
 }
 
-.plant-img{
-    text-align: right;
+.plant-image img{
+    float: right;
     padding: 0;
     margin: 0;
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -156,11 +159,11 @@ footer{
   .plant-description h4{
     font-weight: bold;
     text-align: left;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 20px;
 }
 
 .plant-description p {
-    margin: 0 0 0 15px;
+    margin: 0 0 0 20px;
 }
 
 
@@ -181,25 +184,53 @@ footer{
     background-color: rgb(194, 190, 190)
 }
 
-         .gallery-section {
-            margin-top: 60px;
-        }
+ .gallery-section {
+    margin-top: 60px;
+}
 
  .gallery-item-1 img {
-            margin-top: 7%;
-        }
+    margin-top: 7%;
+}
+
+.contact-title {
+    margin-top: 80px;
+}
+
+.form1 {
+    margin: 3% 20%;
+    border: 1px solid;
+    padding: 5%;
+    background-color: rgb(194, 190, 190);
+    
+}
+
+.form-element {
+    margin: 6px;
+}
+
+.submit-button {
+    float: right;
+    margin: 0 0 5px 0;
+}
+
+
 
   /* Media Query for Mobile Devices */ 
-  @media (max-width: 480px) { 
+  @media (max-width: 576px) { 
         .nav-item {
           background-image: unset;
           border: unset;
           padding: unset;
         }
 
-        .plant-img, .plant-description h4 {
+       .plant-description h4 {
             text-align: center;
         }
+
+         .plant-image {
+            text-align: center;
+        }
+
 
         .title {
             margin-top: 80px;
@@ -207,16 +238,21 @@ footer{
 
     } 
     /* Media Query for low resolution  Tablets, Ipads */ 
-    @media (min-width: 481px) and (max-width: 767px) { 
+    @media (min-width: 577px) and (max-width: 767px) { 
       .nav-item {
         background-image: unset;
         border: unset;
         padding: unset;
       }
 
-        .plant-img, .plant-description h4 {
+        .plant-description h4, .plant-image img {
             text-align: center;
         }
+
+        .plant-image {
+            text-align: center !important;
+        }
+
 
         .title {
             margin-top: 80px;
@@ -224,14 +260,18 @@ footer{
 
     } 
     /* Media Query for Tablets Ipads portrait mode */ 
-    @media (min-width: 768px) and (max-width: 1024px){ 
+    @media (min-width: 768px) and (max-width: 960px){ 
       .nav-item {
         background-image: unset;
         border: unset;
         padding: unset;
       }
 
-       .plant-img, .plant-description h4 {
+       .plant-description h4 {
+            text-align: center;
+        }
+
+        .plant-image img {
             text-align: center;
         }
 

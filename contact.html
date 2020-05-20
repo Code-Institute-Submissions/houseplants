@@ -35,56 +35,51 @@
         </div>
     </nav>
 </header>
-
 <section>
-    <form>
-        <label for="fname">Name:</label>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Surname:</label>
-        <input type="text" id="lname" name="lname"><br>
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email">
-        <p>I'd like to know more about:</p>
-        <input type="checkbox" name="plant1" value="Pothos">
-        <label for="plant1">Pothos</label><br>
-        <input type="checkbox" name="plant2" value="Spider Plant">
-        <label for="plant2">Spider Plant</label><br>
-        <input type="checkbox" name="plant3" value="Philodendron">
-        <label for="plant3">Philodendron</label><br>
-        <input type="checkbox" name="plant4" value="Chrysanthemums">
-        <label for="plant4">Chrysanthemums</label><br>
-        <input type="checkbox" name="plant5" value="Rubber Plant">
-        <label for="plant5">Rubber Plant</label><br>
-        <input type="checkbox" name="plant6" value="Boston Fern">
-        <label for="plant6">Boston Fern</label><br>
-        <input type="checkbox" name="plant7" value="Pineapple Plant">
-        <label for="plant7">Pineapple Plant</label><br>
-        <textarea name="comment" id="" cols="30" rows="6" form="usrform" ></textarea>
-        <input type="submit" value="Submit">
+    <div class="contact-title text-center">
+        <h2>Contact Us</h2>
+    </div>
+    <form action="/" method="post" class="contact-form form1">
+        <h4 class="text-center">Contact Us By Filling This Form</h4>
+        <p class="text-center">(All fields are required)</p>
+        <div class="form-element">
+            <input type="text" class="form-control" placeholder="First Name" required>
+        </div>
+        <div class="form-element">
+            <input type="text" class="form-control" placeholder="Last Name" required>
+        </div>
+        <div class="form-element">
+            <input type="email" class="form-control" placeholder="Email Address" required>
+        </div>
+        <div class="form-element">
+            <textarea class="form-control" placeholder="Your Message" id="exampleFormControlTextarea1" rows="3" required></textarea>
+        </div>
+        <div class="form-element pull-right">
+            <button type="submit" class="btn btn-success submit-button">Submit</button>
+        </div>
     </form>
-    </section>
-    <footer>
+</section>
+<footer>
     <div>
         <ul class="social-network">
-            <li class="col-md-2 footer-text">Follow Us On:</li>
             <li>
-                <a class="iconLinkedIn" href="https://uk.linkedin.com/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a class="iconLinkedIn" href="https://uk.linkedin.com/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </li>
             <li>
                 <a class="iconFacebook" href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-                <a class="iconYoutube" href="https://www.youtube.com/" title="Youtube"><i class="fab fa-youtube"></i></a>
+                <a class="iconYoutube" href="https://www.youtube.com/" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a>
             </li>
             <li>
-                <a class="iconInstagram" href="https://www.instagram.com/?hl=en" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a class="iconInstagram" href="https://www.instagram.com/?hl=en" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a class="iconPinterest" href="https://www.pinterest.co.uk/" title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                <a class="iconPinterest" href="https://www.pinterest.co.uk/" title="Pinterest" target="_blank"><i class="fab fa-pinterest-p"></i></a>
             </li>
-            </ul>
+        </ul>
     </div>
-    </footer>
+</footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
