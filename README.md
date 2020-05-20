@@ -12,18 +12,19 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Fixed menu allows user to easily navigate between website pages.
+- Home page has Bootstrap grid system, which improves sites responsiveness. It doesn't look overcrowded on mobile phones.
+- Gallery has simple layout and filled with eye catching and inspiring photos.
+- User can fill in form in contact page to ask questions related to plants.
 
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- Add more plants and organise adding categories
+- Create houseplants website with full descriptions and care tips.
 
 ## Technologies Used
 
@@ -57,26 +58,42 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This site is hosted using GitHub page, deployed from master branch. Site will update automatically with new commits to the master branch.
 
 
 ## Credits
+
+All code was written by me using Bootstrap.
 
 ### Content
  The text for home page section was copied from:
 - [Perrywood.co.uk](https://www.perrywood.co.uk)
 - [Medium.com](https://www.medium.com)
-- [Health]
+- [Healthline.com](http)://www.healthline.com
+- [Interflora.ie](https://www.interflora.ie)
+
+
 ### Media
-- The photos used in this site were obtained from ...
+ The photos used in this site were obtained from:
+- [cloudinary.com](https://www.cloudinary.com)
+- [medium.com](https://www.medium.com)
+- [gstatic.com](https://www.gstatic.com)
+- [plantshop.me](https://www.plantshop.me)
+- [thespruce.com](https://www.thespruce.com)
+- [crockdn.co.uk](https://www.crocdn.co.uk)
+- [cloudfront.net](https://www.cloudfront.net)
+- [pingimg.com](https://www.pinimg.com)
+- [treehugger.com](https://www.treehugger.com)
+- [makespace.com](https://www.makespace.com)
+- [imgix.net](https://www.imgix.net)
+- [whicdn.com](https://www.whicdn.com)
+- [breyi.com](https://www.breyi.com)
+- [upsummit.co](https://www.upsummit.co)
+- [ergeben.co](https://www.ergeben.co)
+- [freshome.com](https://freshome.com)
+- [onekindesign.com](https://www.onekindesign.com)
+- [peekwise.com](www.peekwise.com)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from my old pasion for houseplants and gardening.
