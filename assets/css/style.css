@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Radley&display=swap');
 
-/*----------------------Colours */
-
-
 
 /*----------------------Heading */
 
@@ -24,8 +21,6 @@ ul .navbar-nav {
     float: right;
 }
 
-
-
 .navbar-nav{
     font-size: 30px;
     text-decoration: none;
@@ -33,10 +28,7 @@ ul .navbar-nav {
     margin: 0 5px 0 20px;
     position: relative;
     list-style: none;
-
 }
-
-
 
 .nav-item{
     background-image: url("../images/plant-wall.jpg");
@@ -44,44 +36,30 @@ ul .navbar-nav {
     padding: 0 20% 0 20%;
     margin: 0 10px;
     position: relative;
-    border: 3px solid white;
-
 } 
-
 
 .nav-link{
     padding: 0 50% 0 50%;
     margin: 0;
-    color: white;
 }
 
-.title {
-    font-family: 'Radley', sans-serif;
-    font-weight: lighter;
-    font-size: 32px;
-    margin-top: 6%;
-}
 
-.inline-block {
-    display: inline-block;
-}
 
-.float-right {
-    float: right;
-}
-
-.navbar-dark {
+.dark-navbar {
     background-color: rgb(70, 60, 60);
+    color: #ffff !important;
 }
 
 
 /*----------------------Hoover CSS----*/
 
-/* .menu-item a:hover {
+.social-icon:hover {
     opacity: 0.8;
-} */
+}
 
-
+.nav-item:hover {
+    opacity: 0.8;
+}
 
 /*----------------------Footer----*/
 
@@ -98,23 +76,19 @@ footer{
     margin: 0;
 } 
 
-
 .social-network{
     text-align: center;
     margin: 0;
     padding: 0 0 10px 0;
     list-style-type: none;
     position: relative;
-    /* height: 70px; */
 }
-
 
 .social-network li{
     display: inline-block;
-
 }
 
-.fab {
+.social-icon {
     background-image: url("../images/plant-wall.jpg");
     text-align: center;
     color: white;
@@ -125,20 +99,19 @@ footer{
     padding: 12px;
     margin: 10px;
     position: relative;
-
 }
 
-.fab:hover {
-    opacity: 0.8;
+/*--------------------Home page --*/
+
+.home-title {
+    font-family: 'Radley', sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 6%;
 }
-
-
-/*--------------Plants list--*/
-
 
 .plants {
     padding: 20px;
-    
 }
 
 .plant-image img{
@@ -148,7 +121,6 @@ footer{
     width: 150px;
     height: 150px;
 }
-
 
 .plant-description {
     padding: 0;
@@ -165,6 +137,9 @@ footer{
 .plant-description p {
     margin: 0 0 0 20px;
 }
+
+
+/*-----------------------Gallery --*/
 
 
 .gallery-item img {
@@ -192,8 +167,13 @@ footer{
     margin-top: 7%;
 }
 
+/*--------------------Contact page --*/
+
 .contact-title {
-    margin-top: 80px;
+    font-family: 'Radley', sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 6%;
 }
 
 .form1 {
@@ -201,7 +181,6 @@ footer{
     border: 1px solid;
     padding: 5%;
     background-color: rgb(194, 190, 190);
-    
 }
 
 .form-element {
@@ -223,14 +202,9 @@ footer{
           padding: unset;
         }
 
-       .plant-description h4 {
+        .plant-image img, .plant-description h4{
             text-align: center;
         }
-
-         .plant-image {
-            text-align: center;
-        }
-
 
         .title {
             margin-top: 80px;
@@ -245,17 +219,16 @@ footer{
         padding: unset;
       }
 
-        .plant-description h4, .plant-image img {
+      .plant-image img, .plant-description h4{
             text-align: center;
         }
 
-        .plant-image {
-            text-align: center !important;
-        }
-
-
         .title {
             margin-top: 80px;
+        }
+
+        .plants {
+            text-align: center;
         }
 
     } 
@@ -267,13 +240,10 @@ footer{
         padding: unset;
       }
 
-       .plant-description h4 {
+       .plant-image img, .plant-description h4 {
             text-align: center;
         }
 
-        .plant-image img {
-            text-align: center;
-        }
 
         .title {
             margin-top: 80px;
