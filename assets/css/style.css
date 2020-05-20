@@ -206,10 +206,6 @@ footer{
             text-align: center;
         }
 
-        .title {
-            margin-top: 80px;
-        }
-
     } 
     /* Media Query for low resolution  Tablets, Ipads */ 
     @media (min-width: 577px) and (max-width: 767px) { 
@@ -223,11 +219,7 @@ footer{
             text-align: center;
         }
 
-        .title {
-            margin-top: 80px;
-        }
-
-        .plants {
+       .plants {
             text-align: center;
         }
 
@@ -242,11 +234,5 @@ footer{
 
        .plant-image img, .plant-description h4 {
             text-align: center;
-        }
-
-
-        .title {
-            margin-top: 80px;
-        }
-
+      }
     }
